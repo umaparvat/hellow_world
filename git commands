@@ -1,0 +1,15 @@
+Commands	Usage	Purpose
+git initi <location>	git init .	to initialise the git repo in our system
+git clone <git url>	git clone https://github.com/umaparvat/Ansible	to clone or download the project into our system
+git status	git status	to show the status of the project changes
+git add -A or git add .	git add .	To add all files to the directory
+git add <new file name>	git add ec2instance.yml	To add a particular file into the git directory
+git commit -m "<commit messgae>"	git commit -m "added index.html"	To commit changesin the repo but not synced yet to github.com
+git push <url>	git push https://github.com/umaparvat/Ansible	This'll be pushed to the repository in github.com. This will work only with github.com
+git pull <url>	git pull https://github.com/umaparvat/Ansible	content will be pulled from github.com to our system. This will work only with github.com
+git branch	git branch	to see the branches in the git of our system
+git branch <branchName>	git branch test	It creates a new branch of all the codes in primary branch(master). In this usage, it creates a new branch test with a copy of all codes of master branch(primary branch)
+git checkout <branch name>	git checkout test	to switch to the new branch
+git merge <primary branch>	git merge master	To merge with primary branch
+git push --set-upstream <branch name>	git push --set-upstream test	To push the content to github
+		
